@@ -33,7 +33,7 @@ class Shopify
     /**
      * @var array The headers from the last request
      */
-    private $last_response_headers;
+    public $last_response_headers;
 
     /**
      * Initialize the Client
